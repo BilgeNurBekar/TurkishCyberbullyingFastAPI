@@ -26,43 +26,45 @@ Bu projeyi yerel ortamınıza kurmak için aşağıdaki adımları izleyin:
 
 ### 2. Proje dizinine gidin:
 
-    ```bash
-    cd TurkishCyberbullyingFastAPI
-    ```
+```bash
+cd TurkishCyberbullyingFastAPI
+ ```
 
 ### 3. Sanal ortamı oluşturun:
 
-    ```bash
-    python -m venv ./venv
-    ```
+```python
+python -m venv ./venv
+```
 
 ### 4. Sanal ortamı etkinleştirin:
 
-    - Windows için:
+- Windows için:
 
-        ```bash
-        .\venv\Scripts\activate
-        ```
+    ```bash
+    .\venv\Scripts\activate
+    ```
 
-    - Unix veya MacOS için:
+- Unix veya MacOS için:
 
-        ```bash
-        source venv/bin/activate
-        ```
+    ```bash
+    source venv/bin/activate
+    ```
 
 ### 5. Gerekli bağımlılıkları yükleyin:
 
-    ```python
-    pip install -r requirements.txt
-    ```
+```python
+pip install -r requirements.txt
+```
 
 ### 6. HuggingFace platformundan modellere erişim:
 
     Çalışmada modellerin dosyaları üzerinden API kullanılmaktadır. Siber zorbalıkların tespiti için fine-tune edilmiş modelleri kodda değiştirerek kullanabilirsiniz:
 
-    [BERTurk](https://huggingface.co/AIZinu/bert-turkish-based-cyberbullying-model)
-    [ConvBERTurk](https://huggingface.co/AIZinu/convBERT-turk-based-cyberbullying)
-    [DistilBERTurk](https://huggingface.co/AIZinu/distilBERT-turkish-based-cyberbullying-model)
+[BERTurk](https://huggingface.co/AIZinu/bert-turkish-based-cyberbullying-model)
+
+[ConvBERTurk](https://huggingface.co/AIZinu/convBERT-turk-based-cyberbullying)
+
+[DistilBERTurk](https://huggingface.co/AIZinu/distilBERT-turkish-based-cyberbullying-model)
 
 
 ## Kullanım:
@@ -97,4 +99,4 @@ Değişikliklerinizi yapın ve commit edin.
 
 Pull request açın.
 
-## Çalışmayı beğendiyseniz lütfen yıldızlamayı unutmayın :) 
+## Çalışmayı beğendiyseniz lütfen yıldızlamayı unutmayın :) ⭐️
